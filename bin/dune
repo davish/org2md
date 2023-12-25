@@ -1,0 +1,4 @@
+(executable
+ (public_name org2md)
+ (name main)
+ (libraries org2md))
