@@ -1,2 +1,3 @@
+open Core
 
-val parse : string -> Ast.t
+val parse : string -> (Ast.t, string) result

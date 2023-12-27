@@ -1,4 +1,4 @@
 (library
  (name org2md)
- (libraries core)
+ (libraries angstrom core)
  (preprocess (pps ppx_jane)))

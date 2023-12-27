@@ -1,5 +1,6 @@
 (library
  (name org2md_test)
  (inline_tests)
- (libraries core)
- (preprocess (pps ppx_jane)))
+ (libraries core org2md)
+ (preprocess
+  (pps ppx_jane)))
